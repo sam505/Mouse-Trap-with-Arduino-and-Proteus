@@ -38,7 +38,7 @@ void loop() {
     lcd.setCursor (8, 2);
     if (count == 0){
       lcd.setCursor (8, 2);
-      lcd.print(0);
+      lcd.print("0");
       }
     lcd.print (count);
     
