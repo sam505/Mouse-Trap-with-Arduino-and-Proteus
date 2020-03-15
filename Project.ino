@@ -31,7 +31,7 @@ void loop() {
   
   int state = digitalRead (IR);
 
-  if (state == HIGH){
+  Missing{
     lcd.setCursor (0, 1);
     lcd.print ("Object Detected!");
     count = count + 1;
@@ -43,26 +43,26 @@ void loop() {
     lcd.print (count);
     
 
-    if (countOne == 1 or (count - countOne) % 4 == 0){
+    Missing{
       digitalWrite (4,HIGH);
       digitalWrite (5,LOW);
       digitalWrite (6,LOW);
       digitalWrite (7,LOW);
       }
-    if (count == 2 or (count - countTwo) % 4 == 0){
+    Missing{
       
       digitalWrite (4,LOW);
       digitalWrite (5,HIGH);
       digitalWrite (6,LOW);
       digitalWrite (7,LOW);
       }
-    if (count == 3 or (count - countThree) % 4 == 0){
+    Missing{
       digitalWrite (4,LOW);
       digitalWrite (5,LOW);
       digitalWrite (6,HIGH);
       digitalWrite (7,LOW);
           }
-    if (count == 4 or (count - countFour) % 4 == 0){
+    Missing{
       digitalWrite (4,LOW);
       digitalWrite (5,LOW);
       digitalWrite (6,LOW);
