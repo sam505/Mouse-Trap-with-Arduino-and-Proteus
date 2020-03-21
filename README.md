@@ -5,4 +5,4 @@ The setup is a revolving door (imagine propellers) with a stepper motor connecte
 
 Added a L298 Stepper Motor Driver for it to be possible to drive a big stepper motor (NEMA 23).
 
-![]()
+![](Capture.PNG)
